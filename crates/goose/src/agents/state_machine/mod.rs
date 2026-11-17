@@ -78,5 +78,7 @@ pub(super) use ops_stop_hook::{StopHookOperation, DEFAULT_BLOCK_CAP};
 pub(super) use ops_subagent::DELEGATED_META_KEY;
 pub(super) use ops_subdirectory_hints::SubdirectoryHintOperation;
 pub(super) use ops_tool_pair_compaction::ToolPairCompactionOperation;
-pub(super) use ops_toolcalling::ToolExecutionOperation;
+pub(super) use ops_toolcalling::{
+    ExpiredToolsOperation, GooseExtensions, ToolDeferral, ToolDeferralOperation,
+};
 pub(super) use tool_approval::GooseToolApproval;
